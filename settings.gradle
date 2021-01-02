@@ -1,0 +1,3 @@
+include ':animatedcheckbox'
+include ':app'
+rootProject.name = "AnimatedCheckBox"

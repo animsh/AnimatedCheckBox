@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/animatedcheckbox"
+            android:textColor="@color/purple_700"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.animsh.animatedcheckbox.AnimatedCheckBox
+                android:id="@+id/animatedCheckBox1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:text=""
+                app:border_stroke_width="2dp"
+                app:color_checked="@color/purple_700"
+                app:color_tick="@color/white"
+                app:color_unchecked="@color/white"
+                app:color_unchecked_stroke="@color/black"
+                app:small_tick="true"
+                app:tick_stroke_width="1dp" />
+
+            <com.animsh.animatedcheckbox.AnimatedCheckBox
+                android:id="@+id/animatedCheckBox2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:text=""
+                app:border_stroke_width="2dp"
+                app:color_checked="@color/red"
+                app:color_tick="@color/white"
+                app:color_unchecked="@color/white"
+                app:color_unchecked_stroke="@color/black"
+                app:small_tick="true"
+                app:tick_stroke_width="1dp" />
+
+            <com.animsh.animatedcheckbox.AnimatedCheckBox
+                android:id="@+id/animatedCheckBox3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:text=""
+                app:border_stroke_width="2dp"
+                app:color_checked="@color/yellow"
+                app:color_tick="@color/white"
+                app:color_unchecked="@color/white"
+                app:color_unchecked_stroke="@color/black"
+                app:small_tick="true"
+                app:tick_stroke_width="1dp" />
+
+            <com.animsh.animatedcheckbox.AnimatedCheckBox
+                android:id="@+id/animatedCheckBox4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:text=""
+                app:border_stroke_width="2dp"
+                app:color_checked="@color/blue"
+                app:color_tick="@color/white"
+                app:color_unchecked="@color/white"
+                app:color_unchecked_stroke="@color/black"
+                app:small_tick="true"
+                app:tick_stroke_width="1dp" />
+
+            <com.animsh.animatedcheckbox.AnimatedCheckBox
+                android:id="@+id/animatedCheckBox5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:text=""
+                app:border_stroke_width="2dp"
+                app:color_checked="@color/green"
+                app:color_tick="@color/white"
+                app:color_unchecked="@color/white"
+                app:color_unchecked_stroke="@color/black"
+                app:small_tick="true"
+                app:tick_stroke_width="1dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimatedCheckBox">
+        <attr name="duration" format="integer" />
+        <attr name="border_stroke_width" format="dimension" />
+        <attr name="tick_stroke_width" format="dimension" />
+        <attr name="color_tick" format="color" />
+        <attr name="color_checked" format="color" />
+        <attr name="color_unchecked" format="color" />
+        <attr name="color_unchecked_stroke" format="color" />
+        <attr name="small_tick" format="boolean" />
+    </declare-styleable>
+</resources>
