@@ -1,8 +1,10 @@
-package com.animsh.animatedcheckbox;
+package com.animsh.animatedcheckboxdemo;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.animsh.animatedcheckbox.R;
 
 public class MainActivity extends AppCompatActivity {
 
