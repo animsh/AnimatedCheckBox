@@ -20,10 +20,10 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: clean build
-      run: ./gradlew clean
     - name: Make Gradle executable
       run: chmod +x ./gradlew
+    - name: clean build
+      run: ./gradlew clean
     - name: Build with Gradle
       run: ./gradlew build
     - name: Build Debug APK
