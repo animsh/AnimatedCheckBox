@@ -3,6 +3,7 @@
 
 ![](/preview/preview.gif?raw=true)
 
+
 Android custom checkbox based on __[SmoothCheckBox](https://github.com/andyxialm/SmoothCheckBox)__
 
 ## Including in your project
@@ -22,16 +23,6 @@ dependencies {
 	        implementation 'com.github.animsh:AnimatedCheckBox:Tag'
 	}
 ```
-
-## Attrs
-|Attr|Type|Description|
-|---|:---|:---:|
-|duration|integer|Animation Duration|
-|stroke_width|dimension|The border width when unchecked|
-|color_tick|color|Tick color (visible only when checked)|
-|color_checked|color|Fill color when selected|
-|color_unchecked|color|Fill color when unchecked|
-|color_unchecked_stroke|color|Border color when unchecked|
 
 ## Sample Usage
 
